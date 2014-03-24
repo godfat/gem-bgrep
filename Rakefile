@@ -10,4 +10,5 @@ Gemgem.init(dir) do |s|
   s.name    = 'gem-bgrep'
   s.version = '0.6.2'
   s.add_runtime_dependency('gem-grep', '>= 0.6.2')
+  s.add_runtime_dependency('bundler')
 end
