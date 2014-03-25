@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Lin Jen-Shin (godfat)"]
-  s.date = "2014-03-24"
+  s.date = "2014-03-25"
   s.description = "Can't find some codes from your app? gem-bgrep let you grep from your Gemfile.\n\nAlso checkout [gem-grep][].\n\n[gem-grep]: https://github.com/godfat/gem-grep"
   s.email = ["godfat (XD) godfat.org"]
   s.files = [
