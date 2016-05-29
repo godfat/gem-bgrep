@@ -22,7 +22,7 @@ class Gem::Commands::BgrepCommand < Gem::Command
 
   def grep_gems
     cmd = Gem::Commands::GrepCommand.new
-    Bundler.locked_gems.specs.each do |spec|
+    Bundler.load.requested_specs.each do |spec|
       system(*cmd.grep_command([spec.name, spec.version],
                                options[:args] + options[:build_args]))
     end
