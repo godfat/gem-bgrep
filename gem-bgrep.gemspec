@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
   s.authors = ["Lin Jen-Shin (godfat)".freeze]
-  s.date = "2016-05-29"
+  s.date = "2016-12-02"
   s.description = "Can't find some codes from your app? gem-bgrep let you grep from your Gemfile.\n\nAlso checkout [gem-grep][].\n\n[gem-grep]: https://github.com/godfat/gem-grep".freeze
   s.email = ["godfat (XD) godfat.org".freeze]
   s.files = [
@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   "task/gemgem.rb".freeze]
   s.homepage = "https://github.com/godfat/gem-bgrep".freeze
   s.licenses = ["Apache License 2.0".freeze]
-  s.rubygems_version = "2.6.4".freeze
+  s.rubygems_version = "2.6.8".freeze
   s.summary = "Can't find some codes from your app? gem-bgrep let you grep from your Gemfile.".freeze
 
   if s.respond_to? :specification_version then
