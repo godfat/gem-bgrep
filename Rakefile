@@ -8,7 +8,7 @@ end
 
 Gemgem.init(__dir__) do |s|
   s.name    = 'gem-bgrep'
-  s.version = '0.6.3'
-  s.add_runtime_dependency('gem-grep', '>= 0.6.2')
+  s.version = '0.8.0'
+  s.add_runtime_dependency('gem-grep', '>= 0.8.0')
   s.add_runtime_dependency('bundler')
 end
