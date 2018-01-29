@@ -23,6 +23,9 @@ Also checkout [gem-grep][].
   `rg` ([ripgrep][rg]) or other compatible command.
 * [rg][] is recommended.
 
+[ag]: https://github.com/ggreer/the_silver_searcher
+[rg]: https://github.com/BurntSushi/ripgrep
+
 ## INSTALLATION:
 
     gem install gem-bgrep
