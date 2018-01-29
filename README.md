@@ -19,7 +19,9 @@ Also checkout [gem-grep][].
 
 * Tested with MRI (official CRuby), Rubinius and JRuby.
 * [gem-grep](https://github.com/godfat/gem-grep)
-* `grep` from shell, or set `GEM_GREP` to `ag` or whatever command you want.
+* `grep` from shell, or set `$GEM_GREP` to `ag` ([The Silver Searcher][ag]),
+  `rg` ([ripgrep][rg]) or other compatible command.
+* [rg][] is recommended.
 
 ## INSTALLATION:
 
@@ -44,7 +46,7 @@ Pass arguments to grep:
 
 Apache License 2.0
 
-Copyright (c) 2014, Lin Jen-Shin (godfat)
+Copyright (c) 2014-2018, Lin Jen-Shin (godfat)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
